@@ -1,0 +1,74 @@
+@font-face {
+	font-family: OpenSans;
+	src: url(assets/Open_Sans/OpenSans-Regular.ttf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: OpenSans;
+	src: url(assets/Open_Sans/OpenSans-Bold.ttf);
+	font-weight: bold;
+}
+
+$tw_height: 52px;
+$avatar_size: 32px;
+$max_width: 180px;
+$horizontal_padding: 12px;
+
+.tw-wrapper {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: $max_width;
+	height: $tw_height;
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	padding-left: $horizontal_padding;
+	padding-right: $horizontal_padding;
+}
+
+.tw-avatar {
+	position: relative;
+	min-width: $avatar_size;
+	height: $avatar_size;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.tw-text-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: hidden;
+	margin-left: $horizontal_padding;
+	height: $avatar_size;
+}
+
+.tw-text {
+	white-space: nowrap;
+	color: #222222;
+	font-size: 10px;
+	font-family: OpenSans;
+	overflow: hidden;
+}
+
+.tw-title {
+	font-weight: bold;
+	text-overflow: ellipsis;
+}
+
+.tw-status {
+	width: 6px;
+	min-width: 6px;
+	height: 6px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.tw-status-avatar {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
