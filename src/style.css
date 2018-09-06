@@ -8,6 +8,7 @@
   src: url(assets/Open_Sans/OpenSans-Bold.ttf);
   font-weight: bold;
 }
+
 .tw-wrapper {
   box-sizing: border-box;
   display: flex;

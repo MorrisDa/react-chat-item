@@ -48,8 +48,4 @@ class Example extends Component {
 	}
 }
 
-
-const App = () => (
-	<Example/>
-);
 render(<Example/>, document.getElementById("root"));

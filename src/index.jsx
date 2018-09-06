@@ -1,7 +1,7 @@
 "use strict"
 
 import React, { Component } from "react";
-import './style.scss';
+import './style.css';
 
 const notifier = {
 	listeners: [],
