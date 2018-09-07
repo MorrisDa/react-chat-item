@@ -13,7 +13,7 @@ npm install twilio-chat-item --save
 ```
 Then, import it:
 ```javascript
-import ChatItem from twilio-chat-item
+import ChatItem from 'twilio-chat-item';
 ```
 Finally, use it in your React application:
 ```javascript
