@@ -1,6 +1,6 @@
 {
   "name": "twilio-chat-item",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Chat Item for Twilio-Flex application!",
   "main": "dist/twilio-chat-item.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "react-dom": "^16.3.0"
   },
   "devDependencies": {
+    "autoprefixer": "^9.1.5",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
@@ -30,6 +31,10 @@
     "gh-pages": "^1.2.0",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.3",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "postcss-scss": "^2.0.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "resolve-url-loader": "^2.3.0",
