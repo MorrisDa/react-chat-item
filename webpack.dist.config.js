@@ -18,8 +18,8 @@ const reactDOMExternal = {
 module.exports = {
 
 	entry: {
-		'twilio-chat-item': './src/index.jsx',
-		'twilio-chat-item.min': './src/index.jsx'
+		'twilio-chat-item': ['./src/index.jsx'],
+		'twilio-chat-item.min': ['./src/index.jsx']
 	},
 
 	externals: {

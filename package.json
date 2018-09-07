@@ -1,6 +1,6 @@
 {
   "name": "twilio-chat-item",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Chat Item for Twilio-Flex application!",
   "main": "dist/twilio-chat-item.js",
   "scripts": {
