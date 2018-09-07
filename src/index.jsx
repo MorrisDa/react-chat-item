@@ -1,9 +1,9 @@
-"use strict"
+"use strict";
 
 import React, { Component } from "react";
 import './style.css';
 
-const notifier = {
+const smartEvent = {
 	listeners: [],
 	timer: false,
 	subscribe: function(cll) {
@@ -27,13 +27,12 @@ const notifier = {
 	}
 };
 
-window.addEventListener("resize", notifier.handle.bind(notifier));
+window.addEventListener("resize", smartEvent.handle.bind(smartEvent));
 
 class ChatItem extends Component {
 	constructor(props) {
 		super(props);
 		this.container = React.createRef();
-
 		this.state = {
 			showAvatar: true
 		};
@@ -41,11 +40,11 @@ class ChatItem extends Component {
 
 	componentDidMount() {
 		this.sizeCheck();
-		this.handler = notifier.subscribe(this.sizeCheck.bind(this));
+		this.handler = smartEvent.subscribe(this.sizeCheck.bind(this));
 	}
 
 	componentWillUnmount() {
-		notifier.unsubscribe(this.handler);
+		smartEvent.unsubscribe(this.handler);
 	}
 
 	sizeCheck() {

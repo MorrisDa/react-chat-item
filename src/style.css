@@ -41,6 +41,7 @@
 }
 
 .tw-text {
+	text-align: left;
   white-space: nowrap;
   color: #222222;
   font-size: 10px;
