@@ -39,7 +39,7 @@ You can supply the following props to the component
 | Property name      | Type                      | Default              | Description                                                                                                                                                              |
 | ------------------ | ------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | title           | string | 'Harry Robinson'                  | First line string
-| subtitle           | string | Online \| 14h                  | Second line string
+| subtitle           | string | 'Online \| 14h'                  | Second line string
 | url           | string | 'https://via.placeholder.com/150x150'                  | Image URL
 | statusColor           | string | 'green'                  | Color of status dot
 | minWidth           | string\|number | 'auto'               | minimum width of the component
