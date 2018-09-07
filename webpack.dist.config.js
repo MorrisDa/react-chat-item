@@ -37,12 +37,12 @@ module.exports = {
 	},
 
 	optimization: {
-    minimizer: [
-      new UglifyJsPlugin({
+		minimizer: [
+			new UglifyJsPlugin({
 				include: /\.min\.js$/
 			})
-    ]
-  },
+		]
+	},
 
 	plugins: [
 		new webpack.DefinePlugin({
