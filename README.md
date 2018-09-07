@@ -34,7 +34,7 @@ export default App;
 ```
 
 ## Options
-You can supply the follow props to te component
+You can supply the following props to the component
 
 | Property name      | Type                      | Default              | Description                                                                                                                                                              |
 | ------------------ | ------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
