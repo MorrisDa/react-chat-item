@@ -1,17 +1,16 @@
 {
   "name": "twilio-chat-item",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Chat Item for Twilio-Flex application!",
-  "main": "dist/index.js",
+  "main": "dist/twilio-chat-item.js",
   "scripts": {
-    "test": "npm run test",
+    "test": "jest",
     "start": "webpack-dev-server --mode development",
     "transpile": "babel src -d dist --copy-files",
-    "scss": "sass src/style.scss src/style.css",
-    "prepublishOnly": "npm run transpile",
-    "build": "webpack --config webpack.build.config.js --mode production",
+    "prepublishOnly": "npm run build",
     "deploy": "gh-pages -d examples/dist",
     "buildDemo": "webpack --mode production",
+    "build": "webpack --mode production --config webpack.dist.config.js",
     "publish-demo": "npm run buildDemo && npm run deploy"
   },
   "author": "Daniele Tomasi",
@@ -24,10 +23,8 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
     "gh-pages": "^1.2.0",
@@ -35,11 +32,11 @@
     "node-sass": "^4.9.3",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "sass": "^1.13.2",
+    "resolve-url-loader": "^2.3.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
-    "uglify-js": "^3.4.9",
     "uglifyjs-webpack-plugin": "^1.3.0",
+    "url-loader": "^1.1.1",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.8"
@@ -47,5 +44,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MorrisDa/twilio-chat-item"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
   }
 }

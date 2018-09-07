@@ -1,7 +1,8 @@
 "use strict";
 
 import React, { Component } from "react";
-import './style.css';
+import './style.scss';
+
 
 const smartEvent = {
 	listeners: [],
@@ -20,7 +21,7 @@ const smartEvent = {
 
 		this.timer = setTimeout(() => {
 			this.listeners.forEach(cll => {
-				window.requestAnimationFrame(cll);
+				cll();
 			});
 			this.timer = false;
 		}, 200);
@@ -85,7 +86,7 @@ ChatItem.defaultProps = {
 	title: 'Harry Robinson',
 	subtitle: 'Online | 14h',
 	minWidth: 'auto',
-	maxWidth: 'auto',
+	maxWidth: '180px',
 };
 
 export default ChatItem;

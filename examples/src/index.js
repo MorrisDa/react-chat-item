@@ -5,7 +5,7 @@ import Aux from '../../src';
 class Example extends Component {
 	constructor(props) {
 		super(props);
-		this.n = new Array(50).fill(undefined);
+		this.n = new Array(100).fill(undefined);
 	}
 
 	addItem() {

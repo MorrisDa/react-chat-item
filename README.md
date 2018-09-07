@@ -33,6 +33,9 @@ class App extends Component {
 export default App;
 ```
 
+**Notes**:
+This component will import `Open Sans` font from `google fonts`.
+
 ## Options
 You can supply the following props to the component
 
@@ -42,5 +45,5 @@ You can supply the following props to the component
 | subtitle           | string | 'Online \| 14h'                  | Second line string
 | url           | string | 'https://via.placeholder.com/150x150'                  | Image URL
 | statusColor           | string | 'green'                  | Color of status dot
-| minWidth           | string\|number | 'auto'               | minimum width of the component
-| maxWidth           | string\|number | 180                  | maximum width of the component
+| minWidth           | string | 'auto'               | minimum width of the component
+| maxWidth           | string | '180px'                  | maximum width of the component
