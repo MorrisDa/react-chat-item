@@ -7,8 +7,10 @@ This is a simple responsive React component for a chat.
 ![example gif](https://media.giphy.com/media/5b7MDezsUYsHueqfgj/giphy.gif)
 
 ## Usage
+Put this repository inside of your `node_modules` folder (This project is ready to be deployed as a npm package). 
+
 ```javascript
-import ChatItem from 'path/to/react-chat-item';
+import ChatItem from 'react-chat-item';
 ```
 Use it in your React application:
 ```javascript
@@ -27,6 +29,7 @@ class App extends Component {
 
 export default App;
 ```
+
 
 **Notes**:
 This component will import `Open Sans` font from `google fonts`.
