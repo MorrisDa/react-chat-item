@@ -7,32 +7,10 @@ This is a simple responsive React component for a chat.
 ![example gif](https://media.giphy.com/media/5b7MDezsUYsHueqfgj/giphy.gif)
 
 ## Usage
-
-### Development
-Run:
-`npm install`
-To install all dependencies
-Then: 
-`npm start`
-To start development server. 
-
-### Production
-Run:
-`npm install`
-To install all dependencies
-Then:
-`npm run build`
-To build the distribution version
-
-Install latest version from npm:
-```
-npm install react-chat-item --save
-```
-Then, import it:
 ```javascript
-import ChatItem from 'react-chat-item';
+import ChatItem from 'path/to/react-chat-item';
 ```
-Finally, use it in your React application:
+Use it in your React application:
 ```javascript
 import React, { Component } from 'react';
 import ChatItem from 'react-chat-item';
@@ -64,3 +42,23 @@ You can supply the following props to the component
 | statusColor           | string | 'green'                  | Color of status dot
 | minWidth           | string | 'auto'               | minimum width of the component
 | maxWidth           | string | '180px'                  | maximum width of the component
+
+## Development
+Install dependencies:
+```
+npm install
+```
+Start development (server will listen at `localhost:3001`): 
+```
+npm start
+```
+
+## Build
+Install dependencies:
+```
+npm install
+```
+Build distribution version (it will be located in `dist` folder):
+```
+npm run build
+```
