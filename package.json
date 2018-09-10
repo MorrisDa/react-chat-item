@@ -1,8 +1,8 @@
 {
-  "name": "twilio-chat-item",
-  "version": "1.0.6",
+  "name": "react-chat-item",
+  "version": "1.0.0",
   "description": "Chat Item for Twilio-Flex application!",
-  "main": "dist/twilio-chat-item.js",
+  "main": "dist/react-chat-item.js",
   "scripts": {
     "test": "jest",
     "start": "webpack-dev-server --mode development",
@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MorrisDa/twilio-chat-item"
+    "url": "git+https://github.com/MorrisDa/react-chat-item"
   },
   "jest": {
     "moduleNameMapper": {

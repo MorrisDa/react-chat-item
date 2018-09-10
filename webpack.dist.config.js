@@ -18,8 +18,8 @@ const reactDOMExternal = {
 module.exports = {
 
 	entry: {
-		'twilio-chat-item': ['./src/index.jsx'],
-		'twilio-chat-item.min': ['./src/index.jsx']
+		'react-chat-item': ['./src/index.jsx'],
+		'react-chat-item.min': ['./src/index.jsx']
 	},
 
 	externals: {
@@ -33,7 +33,7 @@ module.exports = {
 		path: path.resolve(__dirname, 'dist'),
 		publicPath: '/',
 		libraryTarget: 'umd',
-		library: 'twilio-chat-item'
+		library: 'react-chat-item'
 	},
 
 	optimization: {

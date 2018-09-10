@@ -9,7 +9,7 @@ This is a simple responsive React component for a chat.
 ## Usage
 Install latest version from npm:
 ```
-npm install twilio-chat-item --save
+npm install react-chat-item --save
 ```
 Then, import it:
 ```javascript
