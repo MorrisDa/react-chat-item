@@ -1,6 +1,6 @@
-# Twilio Chat Item
+# React Chat Item
 
-[Live Demo](https://morrisda.github.io/twilio-chat-item/)
+[Live Demo](https://morrisda.github.io/react-chat-item/)
 
 This is a simple responsive React component for a chat.
 
