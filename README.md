@@ -61,7 +61,7 @@ Install dependencies:
 ```
 npm install
 ```
-Build distribution version (it will be located in `dist` folder):
+Build distribution version (it will be located inside the `dist` folder):
 ```
 npm run build
 ```
