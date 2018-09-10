@@ -7,6 +7,23 @@ This is a simple responsive React component for a chat.
 ![example gif](https://media.giphy.com/media/5b7MDezsUYsHueqfgj/giphy.gif)
 
 ## Usage
+
+### Development
+Run:
+`npm install`
+To install all dependencies
+Then: 
+`npm start`
+To start development server. 
+
+### Production
+Run:
+`npm install`
+To install all dependencies
+Then:
+`npm run build`
+To build the distribution version
+
 Install latest version from npm:
 ```
 npm install react-chat-item --save
